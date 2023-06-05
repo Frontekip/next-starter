@@ -1,5 +1,9 @@
 # next-starter
-Nextjs started
+
+`Next Starter` provides the foundational structure of your project and preloads all the necessary packages for a fresh start. 
+This eliminates the need to recreate the same **structure and reinstall packages** for every new project. 
+
+When you start a new project using `Next Starter`, you can immediately dive into the **development process**.
 
 
 **What packages are included in Next Starter?**
