@@ -22,3 +22,9 @@ When you start a new project using `Next Starter`, you can immediately dive into
 
     docker build -t next-starter:latest .
     docker run --name next-starter -d -it -p 3000:3000 next-starter
+
+## Vercel
+
+Deploys production directly for vercel.
+
+    yarn deploy
