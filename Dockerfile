@@ -1,4 +1,4 @@
-FROM node:14.20.1-slim
+FROM node:16.8.0-slim
 
 RUN mkdir /app
 
