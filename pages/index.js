@@ -1,4 +1,5 @@
-import Link from 'next/link';
+import Link from "next/link";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -6,6 +7,7 @@ function HomePage() {
   return (
     <div className="container my-5">
       <div className="p-5 text-center bg-body-tertiary rounded-3">
+        <Image src="/static/images/logo.png" width={100} height={100} alt="Next Starter Logo" />
         <h1 className="text-body-emphasis">Next Starter</h1>
         <p className="col-lg-8 mx-auto fs-5 text-muted">
           This package saves you from having to deal with repetitive code when
