@@ -1,0 +1,31 @@
+{
+  "name": "canteen-react",
+  "version": "0.0.1",
+  "repository": "https://github.com/Frontekip/next-starter.git",
+  "author": "yasaricli@gmail.com",
+  "license": "MIT",
+
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.3.6",
+    "bootstrap": "^5.2.3",
+    "classnames": "^2.3.2",
+    "next": "^13.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.10"
+  },
+  "devDependencies": {
+    "sass": "^1.62.0",
+    "vercel": "^28.20.0"
+  }
+}
