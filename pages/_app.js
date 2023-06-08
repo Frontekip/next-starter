@@ -2,18 +2,20 @@ import { useEffect } from "react";
 import Head from "next/head";
 import Script from "next/script";
 import getConfig from "next/config";
-
+import moment from 'moment';
 import NextNProgress from "nextjs-progressbar";
-import { config } from "@fortawesome/fontawesome-svg-core";
-
-// Styles
-import "../styles/main.scss";
-
-// Configs
-config.autoAddCss = false;
+import { config as FontAwesomeConfig} from "@fortawesome/fontawesome-svg-core";
 
 // Public Runtime Config See: next.config.js and .env, .env.production files.
 const { publicRuntimeConfig } = getConfig();
+
+// Styles
+import "../styles/main.scss";
+import (`moment/locale/${publicRuntimeConfig.MOMENT_LOCALE}`);
+
+// Configs
+FontAwesomeConfig.autoAddCss = false;
+moment.locale(publicRuntimeConfig.MOMENT_LOCALE);
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
